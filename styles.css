@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #1a1a1a, #101010);
+  background-color: black; /* Black background for the main content */
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ body {
 header {
   text-align: center;
   background-color: #003366; /* Navy Blue */
-  padding: 30px 20px; /* Reduced padding for smaller header */
+  padding: 30px 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-bottom: 2px solid #d4af37; /* Goldish-white border for header bottom */
 }
@@ -31,7 +31,7 @@ header h1 {
 }
 
 header p {
-  font-size: 1rem; /* Smaller description text */
+  font-size: 1rem;
   color: #ccc;
   margin-top: 5px;
 }
@@ -43,6 +43,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   padding: 40px 20px;
+  background-color: black; /* Black background for main content */
 }
 
 .tool {
@@ -103,7 +104,7 @@ main {
 footer {
   text-align: center;
   padding: 10px 20px;
-  background: #101010;
+  background: #101010; /* Slightly lighter black for footer */
   font-size: 0.9rem;
   color: #555;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
