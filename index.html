@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Concerfate's Tools</title>
-  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">Concerfate's Tools</div>
-    <ul>
+  <nav class="navbar">
+    <div class="logo">Concerfate</div>
+    <ul class="nav-links">
       <li><a href="#tools">Tools</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -18,45 +18,41 @@
   </nav>
 
   <section class="hero">
-    <h1>Welcome to Concerfate's Tools</h1>
-    <p>Discover powerful tools for various tasks. Click below to download!</p>
+    <div class="hero-content">
+      <h1>Powerful Tools at Your Fingertips</h1>
+      <p>Explore and download custom tools designed to simplify your tasks.</p>
+    </div>
   </section>
 
-  <main id="tools">
-    <div class="tool">
-      <img src="multitool_preview.jpeg" alt="Multitool Preview" class="preview-image">
+  <main id="tools" class="tools-grid">
+    <div class="tool-card">
+      <img src="multitool_preview.jpeg" alt="Multitool Preview" class="tool-image">
       <h2>Multitool</h2>
       <p>A batch tool for multi-purpose tasks.</p>
-      <a href="multitool.bat" download class="download-btn">Download</a>
+      <a href="multitool.bat" download class="button">Download</a>
     </div>
-    <div class="tool">
-      <img src="dm_flooder_preview.jpeg" alt="DM Flooder Preview" class="preview-image">
+    <div class="tool-card">
+      <img src="dm_flooder_preview.jpeg" alt="DM Flooder Preview" class="tool-image">
       <h2>DM Flooder</h2>
       <p>A ZIP archive containing the DM Flooder Python script.</p>
-      <a href="dm_flooder.zip" download class="download-btn">Download</a>
+      <a href="dm_flooder.zip" download class="button">Download</a>
     </div>
-    <div class="tool">
-      <img src="deletepreview.jpeg" alt="Delete Channels and Kick Preview" class="preview-image">
+    <div class="tool-card">
+      <img src="deletepreview.jpeg" alt="Delete Channels and Kick Preview" class="tool-image">
       <h2>Delete Channels & Kick</h2>
       <p>A Python script to delete channels and kick users.</p>
-      <a href="delete_channels_and_kick.py" download class="download-btn">Download</a>
+      <a href="delete_channels_and_kick.py" download class="button">Download</a>
     </div>
-    <div class="tool">
-      <img src="GeoLocatorPreview.jpeg" alt="GeoLocator Preview" class="preview-image">
+    <div class="tool-card">
+      <img src="GeoLocatorPreview.jpeg" alt="GeoLocator Preview" class="tool-image">
       <h2>GeoLocator</h2>
       <p>A ZIP archive containing the GeoLocator application.</p>
-      <a href="geolocator.zip" download class="download-btn">Download</a>
+      <a href="geolocator.zip" download class="button">Download</a>
     </div>
   </main>
 
   <footer>
     <p>© 2024 Concerfate. All Rights Reserved.</p>
   </footer>
-
-  <div id="fullscreenModal" class="fullscreen-modal">
-    <span id="closeFullscreen" class="close-fullscreen">&times;</span>
-    <img id="fullscreenImage" class="fullscreen-image">
-  </div>
-  <script src="script.js"></script>
 </body>
 </html>
