@@ -18,20 +18,22 @@ body {
 header {
   text-align: center;
   background-color: #003366; /* Navy Blue */
-  padding: 60px 20px;
+  padding: 30px 20px; /* Reduced padding for smaller header */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #d4af37; /* Goldish-white border for header bottom */
 }
 
 header h1 {
-  font-size: 3.5rem;
+  font-size: 2.2rem; /* Reduced font size */
   font-weight: 600;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Smaller description text */
   color: #ccc;
+  margin-top: 5px;
 }
 
 /* Main Content */
@@ -44,7 +46,8 @@ main {
 }
 
 .tool {
-  background-color: #282828; /* Modern dark card */
+  background-color: #282828; /* Dark card background */
+  border: 2px solid #d4af37; /* Goldish-white border */
   border-radius: 12px;
   padding: 20px;
   text-align: center;
