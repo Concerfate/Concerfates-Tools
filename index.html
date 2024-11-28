@@ -8,11 +8,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Concerfate's Tools</h1>
-    <p>Download my tools with previews and descriptions.</p>
-  </header>
-  <main>
+  <nav>
+    <div class="logo">Concerfate's Tools</div>
+    <ul>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Concerfate's Tools</h1>
+    <p>Discover powerful tools for various tasks. Click below to download!</p>
+  </section>
+
+  <main id="tools">
     <div class="tool">
       <img src="multitool_preview.jpeg" alt="Multitool Preview" class="preview-image">
       <h2>Multitool</h2>
@@ -37,16 +47,12 @@
       <p>A ZIP archive containing the GeoLocator application.</p>
       <a href="geolocator.zip" download class="download-btn">Download</a>
     </div>
-    <div class="tool">
-      <img src="Iploggerpreview.jpeg" alt="IP Logger Preview" class="preview-image">
-      <h2>IP Logger</h2>
-      <p>Discord IP logger that can be run through www.pythonanywhere.com</p>
-      <a href="DiscordIPLogger.py" download class="download-btn">Download</a>
-    </div>
   </main>
+
   <footer>
     <p>© 2024 Concerfate. All Rights Reserved.</p>
   </footer>
+
   <div id="fullscreenModal" class="fullscreen-modal">
     <span id="closeFullscreen" class="close-fullscreen">&times;</span>
     <img id="fullscreenImage" class="fullscreen-image">
